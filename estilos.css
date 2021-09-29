@@ -9,8 +9,15 @@
     --naranja: #FF9900;
     --negro: #000;
     --blanco: #fff;
+    --amarillo: #f9fd12;
+    --espacio: 40px;
 }
 
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
 
 body {
    background-color: #27262b;
@@ -46,9 +53,9 @@ body {
     color: var(--naranja);
 }
 
-.cabecera a{
+/* .cabecera a{
 
-}
+} */
 
 .contenedor{
     background-color: var(--blanco);
@@ -56,7 +63,62 @@ body {
 
 }
 
+
+/*
+-------------------------------------------------
+              Navegacion
+------------------------------------------
+*/
+
+
 .nav {
     background-color: var(--naranja);
     border-radius: 8px 8px 0 0;
+    margin-bottom: var(--espacio);
+}
+
+.nav-lista {
+    
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+} 
+
+.nav-lista_item {
+    
+    border-right: 1px solid var(--amarillo);
+    flex-grow: 1;
+    text-align: center;
+}
+
+.nav-link {
+    
+    color: var(--blanco);
+    font-weight: bold;
+    text-decoration: none;
+    /* Lo transformo en elemento de bloque */
+    display: block;
+    
+}
+
+.nav-lista:hover {
+    text-decoration: underline;
+}
+
+/* .nav-form {
+    background-color: tomato;
+} */
+
+
+/*-------------------------------------------
+          slider de imagen
+----------------------------------------------
+  */
+
+.imagen {
+    text-align: center;
+    margin-bottom: var(--espacio);
 }
