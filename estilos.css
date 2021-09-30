@@ -157,4 +157,18 @@ body {
 
   .productos {
       background-color: coral;
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 30px;
   }
+
+  .lampara-titulo {
+    margin-bottom: 20px;
+}
+.lampara-info {
+    display: flex;
+    align-items: flex-start;
+}
+.lampara-imagen {
+    margin-right: 20px;
+}
