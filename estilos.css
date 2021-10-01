@@ -172,3 +172,42 @@ body {
 .lampara-imagen {
     margin-right: 20px;
 }
+
+
+.news {
+    display: flex;
+    align-items: center;
+    /* Degradados en código */
+    background-image: linear-gradient(var(--blanco) 65%, var(--gris));
+
+    margin-bottom: var(--espacio);
+    margin-left: 30px;
+    margin-right: 30px;
+    padding: 10px 30px;
+
+    border-radius: 5px;
+    border: 1px solid var(--negro2);
+
+    /* Esto es temporal */
+    margin-bottom: 250px;
+}
+
+
+
+.news-info,
+.news-info p {
+    padding-left: 40px;
+}
+
+.news-form {
+    
+    flex-grow: 1;
+    text-align: right;
+}
+
+.news-form_boton {
+    background-color: none;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+}
